@@ -25,6 +25,9 @@ body {
   text-align: center;
   background-color: rgb(253, 255, 250);
 }
+.btn {
+  border-radius: 30px;
+}
 ol, ul {
   list-style: none;
   padding-left: 0px;
