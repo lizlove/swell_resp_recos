@@ -396,7 +396,7 @@ em, i {
   float: left;
   }
   .navbar-fixed-bottom p {
-    font-size: .85em;
+    font-size: 1em;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: 400;
@@ -429,7 +429,7 @@ em, i {
   margin-left: 15px;
   }
   .queryhead{
-  font-size: .7em;
+  font-size: 1.2em;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   text-align: left;
   font-style: italic;
