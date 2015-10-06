@@ -19,7 +19,7 @@ html{
 }
 body {
   font-family: "Open Sans", sans-serif;
-  padding-top: 70px;
+  padding-top: 80px;
   padding-bottom: 100px;
   margin: auto;
   text-align: center;
@@ -94,6 +94,11 @@ em, i {
     =================================== */
 .accolades {
   padding: 10px 0px 25px 0px;
+}
+.accolades img {
+  float:left;
+  display: inline;
+  padding: 10px 15px 5px 0px;
 }
 .arrowBox h4{
   text-align: left;
@@ -232,6 +237,19 @@ em, i {
   margin-bottom: 15px;
   position: sticky; top: 10px;
 }
+.queryhead{
+  font-size: 2em;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-style: italic;
+  font-weight: 100; 
+}
+.querypic{
+  display: inline;
+  vertical-align: text-top;
+  float: left;
+  padding-right: 25px;
+}
 .recoBox {
   text-align: left;
   padding: 0px 10px;
@@ -254,7 +272,7 @@ em, i {
 .recoBox img{
   display: block;
   margin: 0px auto;
-  max-width: 300px;
+  max-width: 260px;
   max-height: 300px;
 }
 .recoLabel button{
@@ -325,7 +343,9 @@ em, i {
   footer button #tips{
     width: 45%;
   }
-
+  .querypic{
+  padding-top: 15px;
+}
 }
 
 /* Tablet devices (mobile, 760px and up) */
@@ -364,6 +384,7 @@ em, i {
     position: fixed;
     top:50px;
     width:228px;
+    margin: 50px 17.250px;
   }
   #sidebar li.active {
   border:0 #eee solid;
