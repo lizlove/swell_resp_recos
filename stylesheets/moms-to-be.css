@@ -1,0 +1,557 @@
+/****  HOW WE WORK  ****/
+#main.moms-to-be {
+    background: url("../img/moms-to-be/hero-parents-02.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% auto;
+}
+
+#main.moms-to-be #title h1 {
+    color: #00CA96;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
+}
+
+#main.moms-to-be a {
+    text-decoration: none;
+}
+#main.moms-to-be button {
+    background-color: #4A90E2;
+    border: none;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFF;
+    padding: 0.6em 2em;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+}
+#main.moms-to-be button:hover {
+    background: #064A99;
+    cursor: pointer;
+}
+
+.landing-moms-to-be header.home-header ul li.about-us {
+    color: #383E47;
+    font-weight: 700;
+}
+
+img.screenshot-hero, img.screenshot-phone  {
+    width: 70%;
+    margin: 5em auto;
+    display: block;
+    clear: both;
+}
+
+img.screenshot-phone {
+    display: none;
+}
+
+.landing-moms-to-be header.home-header ul li.home {
+    background: url("../img/landing/icon_swell-logo-black.svg") no-repeat center center;
+}
+
+.landing-moms-to-be header.home-header ul li.facebook {
+    background: url("../img/landing/icon_facebook.svg") no-repeat center center;
+    height: 22px;
+    width: 22px;
+    text-indent: -9999px;
+    margin: 10px 0px 0px 45px;
+    cursor:pointer;
+}
+
+.landing-moms-to-be header.home-header ul li.twitter {
+    background: url("../img/landing/icon_twitter.svg") no-repeat center center;
+    height: 24px;
+    width: 24px;
+    text-indent: -9999px;
+    margin: 10px 0px 0px 45px;
+    cursor:pointer;
+}
+
+
+/****   MAIN CONTENT   *****/
+#content div h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/****  HOW WE WORK  ****/
+div#features, div#product {
+    margin: 2em 0;
+}
+
+div#features button, div#product button {
+    background-color: #4A90E2;
+    border: none;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF;
+    padding: 0.6em 2em;
+    border-radius: 30px;
+    margin: 1em 0;
+}   
+
+div#features button:hover, div#product button:hover {
+    background: #064A99;
+    cursor: pointer;
+}
+
+
+.landing-moms-to-be div#features ul {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.landing-moms-to-be div#features ul li img {
+    width: 60%;
+    margin-bottom: 0;
+}
+
+/****  RECENT EXAMPLES  ****/
+#content div#recent-examples {
+    margin: 4em -7em;
+    padding: 2em 0;
+    background-color: #79E3C8;
+}
+
+#content div#recent-examples h2 {
+    color: #FFF;
+}
+
+#content div#recent-examples ul {
+    list-style: none;
+    padding-left: 0;
+    width: 50%;
+    margin: 1em auto 3em auto;
+    border-top: 1px solid #383E47;
+}
+
+#content div#recent-examples ul li {
+    border-bottom: 1px solid #383E47;
+    padding: 2em 0;
+}
+
+#content div#recent-examples ul li img {
+    display: block;
+    float: left;    
+}
+
+#content div#recent-examples ul li p {
+    font-size: 25px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-style: italic;
+    font-weight: 100;
+    width: 70%;
+}
+
+#content div#recent-examples ul li button {
+    float: right;
+    display: block;
+    background-color: #4A90E2;
+    border: none;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFF;
+    padding: 0.6em 2em;
+    border-radius: 30px;
+    margin-top: -3em;
+}
+
+#content div#recent-examples ul li button:hover {
+    background: #064A99;
+    cursor: pointer;
+}
+
+/****  TESTIMONIALS  ****/
+#content div#parents-testimonials {
+    height: auto;
+    margin: 0 0 5em 0;
+}
+
+#content div#parents-testimonials ul {
+    list-style: none;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    margin: 2em auto;
+    padding-left: 0;
+}
+
+#content div#parents-testimonials ul li {
+    width: 32%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 2.5em;
+    height: 400px;
+    padding: 0 0.75em;
+}
+
+#content div#parents-testimonials ul li img {
+    width: 50%;
+}
+
+div#testimonial h4 {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 0.3em;
+}
+
+div#testimonial p {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 100;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+div#testimonial {
+    padding-bottom: 0 !important;
+}
+
+#content div {
+    padding-bottom: 0 !important;
+}
+
+/****  METHODOLOGY  ****/
+.methodology #content div h2, .faq #content div h2 {
+    text-align: left;
+    width: 60%;
+    margin: 2em auto 0.5em auto;
+}
+
+div#testimonials p {
+    text-align: left !important;
+    width: 60%;
+}
+
+/****  METHODOLOGY  ****/
+div#resources h1 {
+    text-align: left;
+}
+
+/****   RESOURCES  ****/
+div#resources ul {
+    list-style: none;
+    clear: both;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 66%;
+    margin-top: 2em;
+    padding-left: 0;
+    padding-bottom: 2em;
+}
+
+div#resources ul a:hover {
+    cursor: pointer;
+}
+
+div#resources ul li {
+    width: 24%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 1em;
+}
+
+div#resources ul li img {
+    width: 60%;
+}
+
+/***** FAQ ******/
+.faq #main {
+    height: 273px;
+}
+
+#main.faq {
+    background: url("../img/moms-to-be/hero-faq.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% auto;
+}
+
+.faq #content {
+    top: 320px;
+}
+
+/***** METHODOLOGY *****/
+.methodology #main {
+    height: 273px;
+}
+
+#main.methodology {
+    background: url("../img/moms-to-be/hero-method.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% auto;
+}
+
+.methodology #content {
+    top: 320px;
+}
+
+/****  FOOTER  ****/
+footer button {
+    background-color: #F5A623;
+}
+
+footer button:hover {
+    background-color: #E7AF00;
+}
+
+footer h3 {
+    font-size: 16px;
+    color: #79E3C8;
+}
+
+footer ul li {
+    color: #FFF;
+    font-size: 13px;
+}
+
+/*******   MOBILE CSS  ***********/
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+
+    #main.moms-to-be {
+        background: url("../img/moms-to-be/hero-parents-02.jpg") no-repeat center center;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: auto 100%;
+        height: 300px;
+    }
+
+    .landing-moms-to-be #content {
+        top: 300px;
+    }
+
+    #main.faq {
+        background: url("../img/moms-to-be/hero-faq.jpg") no-repeat center center;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: auto 100%;
+    }
+
+    #main.methodology {
+        background: url("../img/moms-to-be/hero-method.jpg") no-repeat center center;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
+    img.screenshot-hero {
+        display: none;
+    }
+
+    img.screenshot-phone {
+        display: block;
+        width: 90%;
+        margin: 1em auto;
+    }
+    #main.moms-to-be #title {
+        margin-top: 7em;
+    }
+    #main.moms-to-be #title h1 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    div#features button, div#product button {
+        font-size: 14px;
+    }
+
+    div#features {
+        margin-top: 0;   
+    }
+
+    div#intro {
+        padding-bottom: 0;
+    }
+
+    #content div h2 {
+        font-size: 14px;
+    }
+    
+    /****  TESTIMONIALS  ****/
+    #content div#parents-testimonials {
+        width: 100%;
+        height: auto;
+        margin: 2em 0 0 0;
+        clear: both;
+        display: block;
+    }
+    #content div#parents-testimonaisl ul {
+        height: 100% !important;
+        background: red;
+        display: block;
+    }
+    #content div#parents-testimonials ul li {
+        width: 100%;
+        height: 100%;
+        display: block;
+        float: none;
+        clear: both;
+        margin-bottom: 2em !important;
+    }
+    #content div#parents-testimonials ul li img {
+        width: 40%;
+        margin-bottom: 0;
+    }
+
+    #content div#parents-testimonials ul li h4 {
+        font-size: 16px;
+        margin-bottom: 0.3em;
+    }
+
+    #content div#parents-testimonials ul li p {
+        margin-bottom: 0;
+        line-height: 28px;
+    }
+
+    /****  METHODOLOGY  ****/
+    .methodology #content div h2 {
+        text-align: left;
+        width: 100%;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    div#testimonials {
+        margin: 0 -1em !important;
+        padding: 1em 0.75em !important;
+    }
+
+    div#testimonials p {
+        width: 100%;
+    }
+
+    /****  RECENT EXAMPLES  ****/
+    #content div#recent-examples {
+        margin: 0 -1em;
+    }
+    #content div#recent-examples ul {
+        width: 90%;
+    }
+
+    #content div#recent-examples ul li img {
+        width: 30px;
+        margin-right: 1em;
+    }
+
+    #content div#recent-examples ul li p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    #content div#recent-examples ul li button {
+        font-size: 12px;
+        margin-top: -3.5em;
+    }
+
+    #content div#recent-examples ul li button:hover {
+        background: #064A99;
+        cursor: pointer;
+    }
+
+    /*  RESOURCES  */
+    div#resources ul {
+        width: 100%;
+        margin-top: 1em;
+        padding-left: 0;
+        padding-bottom: 1em;
+        margin-bottom: 0;
+    }
+
+    div#resources ul li {
+        width: 100%;
+        display: block;
+        float: none;
+        margin-bottom: 1em;
+    }
+
+    div#resources ul li img {
+        width: 50%
+    }
+
+   /* FAQ */
+
+   .faq #content div h2 {
+        text-align: left;
+        width: 100%;
+        font-size: 14px;
+   }
+
+   .faq #title, .methodology #title {
+        margin-top: 6em;
+   }
+
+   #content div#mission-statement p {
+        font-size: 15px;
+   }
+}
+
+
+/* Tablet CSS ----------- */
+@media only screen and (min-width: 800px) and (max-width : 1200px) {
+    #main.moms-to-be {
+        background: url("../img/moms-to-be/hero-parents-02.jpg") no-repeat center center;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: auto 100%;
+    }
+
+    #main.faq {
+        background: url("../img/moms-to-be/hero-faq.jpg") no-repeat center center;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: auto 100%;
+    }
+
+    #main.methodology {
+        background: url("../img/moms-to-be/hero-method.jpg") no-repeat center center;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: auto 100%;
+    }
+
+    #main.moms-to-be #title {
+        margin-top: 150px;
+    }
+
+    div#parents-testimonials ul {
+        background: red;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width : 1600px) {
+    div#parents-testimonials ul {
+        background: red;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width : 4000px) {
+    img.screenshot-hero {
+        width: 50%;
+    }
+
+    .landing-moms-to-be div#features ul {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
