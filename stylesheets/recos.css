@@ -93,7 +93,7 @@ em, i {
     BODY
     =================================== */
 .accolades {
-  padding: 10px 0px 25px 0px;
+  padding: 0px 0px 25px 0px;
 }
 .accolades img {
   float:left;
@@ -345,7 +345,12 @@ em, i {
   }
   .querypic{
   padding-top: 15px;
-}
+  }
+  .accolades img {
+  float: none;
+  display: block;
+  padding: 0px 0px;
+  }
 }
 
 /* Tablet devices (mobile, 760px and up) */
