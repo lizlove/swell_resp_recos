@@ -10,7 +10,7 @@
 }
 html{
   line-height: 1.4;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-size: 100%;
   color: #222;
@@ -18,7 +18,9 @@ html{
   height: 100%;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 70px;
+  padding-bottom: 100px;
   margin: auto;
   text-align: center;
   background-color: rgb(253, 255, 250);
@@ -83,79 +85,10 @@ em, i {
     HEADER
     =================================== */
 
-header{
-  padding: 10px;
-  margin: 20px 0px 20px 0px;
+.navbar-fixed-top {
+  text-align: center;
+  padding-bottom: 10px;
 }
-
-/*  NAVIGATION */
-header.home-header {
-    position: absolute;
-    width: 100%;
-    padding: 0 3% 20px 0;
-    z-index: 10;
-    margin: 0;
-    top: 0;
-    left: 0;
-}
-
-header.home-header ul li {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    float: right;
-    margin: 20px 25px;
-    display: inline-block;
-}
-
-header.home-header li a {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #FFF;
-    text-decoration: none;
-    font-weight: 400;
-    white-space: nowrap;
-}
-
-header.home-header ul li.about-us, header.home-header ul li.blog {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    color: #000;
-    margin: 15px 10px 15px 30px;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.31);
-}
-header.home-header ul li.home {
-    font-size: 32px;
-    font-weight: 500;
-    float: left;
-    background: url("../img/landing/icon_swell-logo-black.svg") no-repeat center center;
-    height: 33px;
-    width: 80px;
-    text-indent: -9999px;
-    margin: 10px 0px 0px 45px;
-    cursor: pointer;
-}
-
-header.home-header ul li.twitter {
-    background: url("../img/landing/icon_twitter.svg") no-repeat center center;
-    height: 24px;
-    width: 24px;
-    text-indent: -9999px;
-    margin: 10px 0px 0px 45px;
-    cursor:pointer;
-}
-
-header.home-header ul li.facebook {
-    background: url("../img/landing/icon_facebook.svg") no-repeat center center;
-    height: 22px;
-    width: 22px;
-    text-indent: -9999px;
-    margin: 10px 0px 0px 45px;
-    cursor:pointer;
-}
-
 /*  ===================================
     BODY
     =================================== */
@@ -197,8 +130,9 @@ header.home-header ul li.facebook {
   margin-top: -13px;
 }
 .assistant{
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
+  margin-top: 25px;
 }
 .assistant img{
   max-width: 228px;
@@ -257,7 +191,7 @@ header.home-header ul li.facebook {
   font-size: 1.1em;
 }
 .infoBox li{
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.1em;
   font-weight: 400;
   line-height: 1.75;
@@ -269,7 +203,7 @@ header.home-header ul li.facebook {
   display: block;
 }
 .infoBox p{
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.1em;
   font-weight: 400;
   line-height: 1.75;
@@ -295,7 +229,8 @@ header.home-header ul li.facebook {
 }
 #query {
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
+  position: sticky; top: 10px;
 }
 .recoBox {
   text-align: left;
@@ -308,7 +243,7 @@ header.home-header ul li.facebook {
   border-bottom: 0px;
 }
 .recoBox > .arrowBox{
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-left: 10px;
   text-align: left;
   padding-left: 10px;
@@ -332,7 +267,7 @@ header.home-header ul li.facebook {
   color: black;
 }
 .ribbon p{
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: .8em;
   text-align: center;
   text-transform: uppercase;
@@ -360,157 +295,32 @@ header.home-header ul li.facebook {
 /*  ===================================
     FOOTER
     =================================== */
-footer {
-     background: #333333;
-     display: block;
-     color: #ffffff;
-     font-size: 20px;
-     font-weight: 300;
-     padding: 40px 100px 100px 100px;
-     z-index: 1;
-     margin: 0 -112px 0 -112px;
+.navbar-fixed-bottom button{
+  padding: 10px 10px;
+  margin-bottom: 25px;
 }
-
-footer a {
-    text-decoration: none;
+.navbar-fixed-bottom p{
+  color: white;
 }
-
-footer button {
-    background-color: #4A90E2;
-    border: none;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    color: #FFF;
-    padding: 0.6em 2em;
-    border-radius: 30px;
+.navbar-fixed-bottom {
+  background-color: rgba(64, 137, 172, .9);
 }
-
-footer button:hover {
-    background: #064A99;
-    cursor: pointer;
-}
-
-footer div.download-button {
-    padding-bottom: 1em !important;
-}
-
-footer div.download-button a img {
-    width: 230px;
-    margin: 0.5em auto;
-}
-footer h3 {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 100;
-    width: 50%;
-    margin: 1em auto 0.5em auto;
-    line-height: 28px;
-}
-
-footer form {
-     margin-left: 0 !important;
-}
-
-footer form div.mc-field-group {
-     margin-bottom: 0.75em !important;
-     padding: 0 !important;
-}
-
-footer form div.mc-field-group input {
-     margin-right: 0;
-}
-
-footer ul {
-     margin: 0 0 1.5em 0;
-     padding-left: 0;
-     clear: both;
-}
-
-footer ul a {
-    text-decoration: none;
-    color: #D3D6DB;
-}
-
-footer ul a:hover {
-    color: #FFF;
-}
-
-footer ul li {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    display: inline;
-    margin: 0.7em;
-}
-
-footer button {
-    background-color: #F5A623;
-}
-
-footer button:hover {
-    background-color: #E7AF00;
-}
-
-  
-  /***** FOOTER MOBILE CSS ****/
-  footer {
-    padding: 2.5em 0.75em 1.5em 0.75em;
-    margin: 0 -16px 0 -16px;
-    overflow: hidden;
-    display: block;
-    clear: both;
-  }
-  footer button {
-    font-size: 16px;
-  }
-  footer div.download-button a img {
-      width: 200px;
-      margin: 0.5em auto 1em auto;
-  }
-  footer input {
-    text-align: center;
-    margin-right: 0;
-    width: 90%;
-  }
-
-  footer button {
-    width: 90%;
-  }
-
-  footer ul {
-    margin-top: 0;
-    margin-bottom: 1.5em;
-    padding: 0;
-  }
-
-  footer ul li {
-    font-size: 14px;
-    display: inline-block;
-    margin-bottom: 0;
-  }
-
-  footer h3 {
-    width: 90%;
-    font-size: 17px;
-    margin: 0 auto;
-  }
-
 
 /*  ===================================
     SIDEBAR
     =================================== */
 
 /* Small devices (mobile, 480px and under) */
-@media (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   #sidebar.affix-top {
     position: static;
     margin-top:20px;
-    width:228px;
+    width:320px;
   }
   #sidebar.affix {
     position: initial;
     top:50px;
-    width:228px;
+    width:320px;
   }
   footer button #tips{
     width: 45%;
@@ -523,12 +333,12 @@ footer button:hover {
   #sidebar.affix-top {
     position: static;
     margin-top:20px;
-    width:228px;
+    width:320px;
   }
   #sidebar.affix {
     position: initial;
     top:50px;
-    width:228px;
+    width:320px;
   }
   footer button #tips{
     width: 10%;
@@ -560,7 +370,7 @@ footer button:hover {
   border-right-width:5px;
   }
  footer button {
-    width: 20%;
+    width: 25%;
   }
 } 
 
