@@ -93,18 +93,18 @@ em, i {
   position: sticky; top: 10px;
 }
 .queryhead{
-  font-size: 1.25em;
+  font-size: 1.7em;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   text-align: left;
   font-style: italic;
-  font-weight: 100; 
+  font-weight: 100;
 }
 .querypic{
   display: inline;
   vertical-align: text-top;
   float: left;
   padding-right: 15px;
-  max-height: 30px;
+  max-height: 40px;
 }
 
 /*  ===================================
@@ -393,11 +393,11 @@ em, i {
   float: left;
   }
   .navbar-fixed-bottom p {
-    font-size: .75em;
+    font-size: .85em;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: 400;
-    line-height: 1;
+    line-height: .8;
   }
   .navbar-fixed-bottom button{
     margin-top: 1px;
@@ -424,6 +424,13 @@ em, i {
   margin-top: 5px;
   margin-bottom: 15px;
   margin-left: 15px;
+  }
+  .queryhead{
+  font-size: .7em;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-style: italic;
+  font-weight: 100;
   }
 }
 
