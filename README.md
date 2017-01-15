@@ -1,10 +1,10 @@
-# Project Title
+# Swell Baby
 
 Swell Responsive Recommendations  
 
-## Getting Started
+## About
 
-Static mockups of various responsive templates for recommending baby products to Swell test users. 
+Static mockups of various responsive templates for recommending baby products to Swell test users.
 
 ## Authors
 
